@@ -1,4 +1,3 @@
-
 ##  makeCacheMatrix function takes advantage of R's lexical scoping rules to
 ##  store (cache) the results of time-consuming calculations thereby increasing
 ##  the efficiency and speed of R programming.
@@ -50,4 +49,3 @@ makeCacheMatrix <- function(x = matrix()) {
      m                        # return inverted matrix
 
  }
-
